@@ -8,7 +8,6 @@ let featuredDrink = "Strawberry Milkshake";
 function changeFeaturedDrink() {
   featuredDrink = "The JavaShake";
 }
-changeFeaturedDrink();
 
 // Task 4: Add burgers
 function addBurger() {
@@ -20,3 +19,4 @@ function addBurger() {
   }
 }
 addBurger();
+changeFeaturedDrink();
