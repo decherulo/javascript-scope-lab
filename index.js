@@ -1,20 +1,22 @@
 // Write your solution in this file!
 
-// Task 1: Array Creation and Initialization
-var burgers = ["hamburger", "cheeseburger"];
+// Global variables
+const burgers = ["Hamburger", "Cheeseburger"];
+let featuredDrink = "Strawberry Milkshake";
 
-// Task 2: String Creation and Initialization
-var drink = "cookie vanilla milkshake";
-
-// Task 3: String Function is Changed
-function updateFeaturedItem() {
-  drink = "strawberry milkshake";
+// Task 3: Change featured drink
+function changeFeaturedDrink() {
+  featuredDrink = "The JavaShake";
 }
-updateFeaturedItem();
+changeFeaturedDrink();
 
-// Task 4: Block Scoped Function
-function addNewBurger() {
-  let newBurger = "triple cheeseburger";
+// Task 4: Add burgers
+function addBurger() {
+  const newBurger = "Flatburger";
   burgers.push(newBurger);
+  if (true) {
+    const anotherNewBurger = "Maple Bacon Burger";
+    burgers.push(anotherNewBurger);
+  }
 }
-addNewBurger();
+addBurger();
